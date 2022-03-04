@@ -1,6 +1,18 @@
+b {
+    background-color: white;
+    border: 1px dashed green;
+    border-radius: 5%;
+    color: green;
+    padding: 0px 5px;
+}
+
+em {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 table {
     background-color: lightgrey;
-    border: 1px solid black;
 }
 
 th, td {
@@ -10,6 +22,29 @@ th, td {
     height: auto;
 }
 
+th {
+    background-color:paleturquoise;
+    }
+
+td {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
 .description {
     text-align: right;
 }
+
+.colDesc {
+    text-transform: uppercase;
+    text-align: center;
+    background-color: lemonchiffon;
+    font-size: 20px;
+}
+
+.emptyDesc {
+    background-color: white;
+    border-top: 0;
+    border-left: 0;
+}
+
